@@ -97,7 +97,7 @@ Open your browser at http://localhost:8000
 ---
 Use the API endpoints via Postman or curl as documented below.
 
-# API Endpoints
+## API Endpoints
 |    Endpoint   |	Method   |	Description                      |
 |---------------|----------|-----------------------------------|
 |/summarize     | POST     |    Summarize given text           |
@@ -106,7 +106,7 @@ Use the API endpoints via Postman or curl as documented below.
 
 See README.md in the /task1 folder for detailed request/response format.
 
-# Environment Variables
+## Environment Variables
 
 Create a .env file in the project root based on .env.example with the following content:
 ```env
