@@ -1,0 +1,18 @@
+{
+  "name": "Keyword Extractor Demo",
+  "nodes": [
+    {
+      "id": "1",
+      "name": "Text Input",
+      "type": "TextInput",
+      "data": { "text": "LangChain and Flowise are powerful AI tools." }
+    },
+    {
+      "id": "2",
+      "name": "Keyword Extractor",
+      "type": "keywordExtractor",
+      "data": {},
+      "inputs": { "inputText": { "nodeId": "1", "output": "output" } }
+    }
+  ]
+}
